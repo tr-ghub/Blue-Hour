@@ -14,7 +14,5 @@ A cozy digital study space that creates a calm and focused environment based on 
 
 ## Credits:
 Musics tracks provided by Mixkit and FreeToUse Music with their respective creators - Moavii, Pufino, Lukrembo
-
-
-
+&emsp
 (A beginner project use to explore HTML, CSS and JavaScript.)
