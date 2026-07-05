@@ -16,4 +16,5 @@ A cozy digital study space that creates a calm and focused environment based on 
 Musics tracks provided by Mixkit and FreeToUse Music with their respective creators - Moavii, Pufino, Lukrembo
 
 
+
 (A beginner project use to explore HTML, CSS and JavaScript.)
