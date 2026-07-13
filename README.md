@@ -6,11 +6,12 @@ A cozy digital study space that creates a calm and focused environment based on 
 - Mood selector with quotes
 - Relaxing background musics
 - Dynamic background colours based on mood
+- Responsive layout
   
 ## Built with:
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript (Vanilla) (DOM manipulation)
 
 ## Credits:
 Musics tracks provided by Mixkit and FreeToUse Music with their respective creators - Moavii, Pufino, Lukrembo
