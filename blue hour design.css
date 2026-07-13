@@ -42,6 +42,13 @@ h1 {
     /*creates extra space in element*/
 }
 
+.answers button:hover {
+    background-color: #efe2c5;
+    width: 70px;
+    height: 35px;
+    box-shadow: 0 3px 8px #3d3c3c;
+}
+
 /*Music*/
 .music {
     display: flex;
@@ -63,6 +70,14 @@ h1 {
     border: 1px solid #b4a899;
     border-radius: 3px;
     padding: 5px;
+    width: 80px;
+}
+
+.music button:hover {
+    background-color: #efe2c5;
+    width: 68px;
+    height: 30px;
+    box-shadow: 0 3px 8px #3d3c3c;
 }
 
 .music audio {
@@ -95,10 +110,19 @@ h1 {
     background-color: #F7ECD2;
     border: 1px solid #eadac6;
     border-radius: 3px;
-    padding: 2px;
+    padding: 5px;
     margin-top: -100px;
 }
 
+.pomodoroTimer button:hover {
+    background-color: #e4d7bb;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0 3px 8px #3d3c3c;
+
+}
+
+/*Credits*/
 .credits {
     margin-top: 130px;
     margin-bottom: 10px;
@@ -110,6 +134,43 @@ h1 {
     gap: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size:26px;
+    }
+    #popUpQuestion {
+        font-size:18px;
+    }
+    .answers button,
+    .music button,
+    .pomodoroTimer button {
+        font-size:14px;
+        padding: 6px 10 px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        text-align:center;
+        margin-left:0;
+        font-size:17px;
+    }
+    #timeDisplayed {
+        font-size: 60px;
+    }
+    #popUpQuestion {
+        font-size:17px;
+        text-align:center;
+        margin-right:0;
+    }
+    .answers button,
+    .music button,
+    .pomodoroTimer button {
+        width: 85%;
+        margin: 8px;
+        font-size: 15px;
+    }
+}
 
 /*flex-wrap
 - nowrap: single line
