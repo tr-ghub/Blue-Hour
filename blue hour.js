@@ -139,15 +139,15 @@ function mood(moodSelected) {
 function music(sound) {
     const musicPlayer = document.getElementById("music");
     if (sound === "rain") {
-        musicPlayer.src = "royal-free musics/mixkit-rain-long-loop-2394.wav";
+        musicPlayer.src = "royal-free-musics/mixkit-rain-long-loop-2394.wav";
     } else if (sound === "thunder") {
-        musicPlayer.src = "royal-free musics/mixkit-calm-thunderstorm-in-the-jungle-2415.wav";
+        musicPlayer.src = "royal-free-musics/mixkit-calm-thunderstorm-in-the-jungle-2415.wav";
     } else if (sound === "cafe") {
-        musicPlayer.src = "royal-free musics/Bread.mp3";
+        musicPlayer.src = "royal-free-musics/Bread.mp3";
     } else if (sound === "morning") {
-        musicPlayer.src = "royal-free musics/Morning.mp3";
+        musicPlayer.src = "royal-free-musics/Morning.mp3";
     } else if (sound === "butterflies") {
-        musicPlayer.src = "royal-free musics/Butterflies.mp3";
+        musicPlayer.src = "royal-free-musics/Butterflies.mp3";
     }
     musicPlayer.loop = true;
     musicPlayer.play();
