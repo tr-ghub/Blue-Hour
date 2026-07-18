@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title> Blue Hour - Your Personal Study Space </title>
+    <link rel="stylesheet" href="blue hour design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Tell browser to prepare connection, optimisation-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+</head>
+
+<body>
+    <h1> Blue Hour Study Space </h1>
+
+    <!--moods-->
+    <p id="popUpQuestion"> How are you feeling right now? 🍁 </p>
+    <div class="answers">
+        <button onclick="mood ('calm')"> ⛅️ Calm </button>
+        <button onclick="mood ('happy')"> 🌟 Happy </button>
+        <button onclick="mood ('lucky')"> 🍀 Lucky </button>
+        <button onclick="mood ('sad')"> 🌧️ Sad </button>
+        <button onclick="mood ('angry')"> ⛈️ Angry </button>
+        <button onclick="mood ('unwell')"> 🥀 Unwell </button>
+    </div>
+
+    <!--musics-->
+    <div class="music">
+        <div class="musicButtons">
+            <button onclick="music('thunder')"> Thunder </button>
+            <button onclick="music('rain')"> Rain </button>
+            <button onclick="music('butterflies')"> Butterflies </button>
+            <button onclick="music('morning')"> Morning </button>
+            <button onclick="music('cafe')"> Cafe </button>
+        </div>
+        <audio id="music" controls></audio>
+    </div>
+
+    <!--pomodoro timer-->
+    <div class="pomodoroTimer">
+        <b><strong>
+                <p id="timeDisplayed"> 25:00 </p>
+            </strong></b>
+        <button onclick="startTimer ()"> Start </button>
+        <button onclick="stopTimer ()"> Stop </button>
+        <button onclick="resetTimer ()"> Reset </button>
+    </div>
+
+    <script src="blue hour.js"></script>
+</body>
+
+<footer class="credits">
+    <h3 Music Credits></h3>
+    <p> Butterflies - Moavii (via FreeToUse Music) </p>
+    <p> Enlivening - Pufino (via FreeToUse Music) </p>
+    <p> Bread - Lukrembo (via FreeToUse Music) </p>
+    <p>Rain & Thunder sounds - Mixkit</p>
+</footer>
+
+</html>
+
+
+
+<!--Royal free musics by Mixkit
+Source: https://mixkit.co/-->
+
+<!-- Music track: Butterflies by Moavii
+Source: https://freetouse.com/music
+Free No Copyright Music Download -->
+
+<!-- Music track: Enlivening by Pufino
+Source: https://freetouse.com/music
+Free To Use Music for Video -->
+
+<!-- Music track: Bread by Lukrembo
+Source: https://freetouse.com/music
+No Copyright Music for Video (Free) -->
